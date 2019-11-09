@@ -1,7 +1,7 @@
 Version 1.1
-Ê¹ÓÃ·½·¨£º
-1.Æô¶¯Pycharm£¬½«µ±Ç°Ä¿Â¼¼ÓÈë¹¤³ÌÖÐ£»
-2.ÔËÐÐmanage.py£¨Shift+F10)£¬ÔÚä¯ÀÀÆ÷µÇÂ¼http://127.0.0.1:8000£»
-3.ÔÚ´ò¿ªµÄÒ³ÃæÄÚ£¬¿ÉÒÔ½øÐÐÉÏ´«ºÍÏÂÔØexcel±í¸ñµÄ²Ù×÷£¬µã»÷upload£¬ÔÚ±¾µØÑ¡ÔñÐèÒªÉÏ´«µÄÎÄ¼þ£¬¼´¿ÉÍê³ÉÎÄ¼þÉÏ´«£¬ÉÏ´«µÄÎÄ¼þÄ¬ÈÏ±£´æÔÚ¹¤³ÌËùÔÚÄ¿Â¼µÄresourcesÖÐ£¨.\\resources£©¡£Ã¿µ±ÎÄ¼þÉÏ´«ºó£¬¼´¿ÉÔÚÒ³ÃæÄÚÏÔÊ¾excel±í¸ñÄÚµÄËùÓÐÄÚÈÝ£»
-4.µã»÷download£¬Ôò»áÏÂÔØ×î½üÉÏ´«µÄ±í¸ñ¡£
-5.µ±ÐèÒª¶Ô±í¸ñ½øÐÐÐÞ¸ÄÊ±£¬Ö»ÐèÒªÔÚ±¾µØ½øÐÐexcel±í¸ñµÄÐÞ¸Ä£¬ÖØÐÂÉÏ´«¼´¿É¡£
+ä½¿ç”¨æ–¹æ³•ï¼š
+1.å¯åŠ¨Pycharmï¼Œå°†å½“å‰ç›®å½•åŠ å…¥å·¥ç¨‹ä¸­ï¼›
+2.è¿è¡Œmanage.pyï¼ˆShift+F10)ï¼Œåœ¨æµè§ˆå™¨ç™»å½•http://127.0.0.1:8000ï¼›
+3.åœ¨æ‰“å¼€çš„é¡µé¢å†…ï¼Œå¯ä»¥è¿›è¡Œä¸Šä¼ å’Œä¸‹è½½excelè¡¨æ ¼çš„æ“ä½œï¼Œç‚¹å‡»uploadï¼Œåœ¨æœ¬åœ°é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶ï¼Œå³å¯å®Œæˆæ–‡ä»¶ä¸Šä¼ ï¼Œä¸Šä¼ çš„æ–‡ä»¶é»˜è®¤ä¿å­˜åœ¨å·¥ç¨‹æ‰€åœ¨ç›®å½•çš„resourcesä¸­ï¼ˆ.\\resourcesï¼‰ã€‚æ¯å½“æ–‡ä»¶ä¸Šä¼ åŽï¼Œå³å¯åœ¨é¡µé¢å†…æ˜¾ç¤ºexcelè¡¨æ ¼å†…çš„æ‰€æœ‰å†…å®¹ï¼›
+4.ç‚¹å‡»downloadï¼Œåˆ™ä¼šä¸‹è½½æœ€è¿‘ä¸Šä¼ çš„è¡¨æ ¼ã€‚
+5.å½“éœ€è¦å¯¹è¡¨æ ¼è¿›è¡Œä¿®æ”¹æ—¶ï¼Œåªéœ€è¦åœ¨æœ¬åœ°è¿›è¡Œexcelè¡¨æ ¼çš„ä¿®æ”¹ï¼Œé‡æ–°ä¸Šä¼ å³å¯ã€‚
