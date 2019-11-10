@@ -1,4 +1,4 @@
-Version 1.1
+﻿excel_upload Version 1.1
 使用方法：
 1.启动Pycharm，将当前目录加入工程中；
 2.运行manage.py（Shift+F10)，在浏览器登录http://127.0.0.1:8000；

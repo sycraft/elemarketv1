@@ -6,23 +6,38 @@ from django.template import RequestContext
 
 def index(request):
     if "GET" == request.method:
-        wb = openpyxl.load_workbook('.\\resources\\temp.xlsx')
+        wb = openpyxl.load_workbook('.\\resources\\psst_input.xlsx')
         sheets = wb.sheetnames
         active_sheet = wb.active
         excel_data = list()
         # iterating over the rows and
         # getting value from each cell in row
-        worksheet = wb["Sheet1"]
+        worksheet = wb["load"]
         for row in worksheet.iter_rows():
             row_data = list()
             for cell in row:
                 row_data.append(str(cell.value))
                 # print(cell.value)
             excel_data.append(row_data)
-        return render(request, 'myapp/index.html', {"excel_data":excel_data})
+
+            
+        wb = openpyxl.load_workbook('.\\resources\\psst_output.xlsx')
+        sheets = wb.sheetnames
+        active_sheet = wb.active
+        psst_output = list()
+        # iterating over the rows and
+        # getting value from each cell in row
+        worksheet = wb["Power"]
+        for row in worksheet.iter_rows():
+            row_data = list()
+            for cell in row:
+                row_data.append(str(cell.value))
+                # print(cell.value)
+            psst_output.append(row_data)
+        return render(request, 'myapp/index.html', {"excel_data":excel_data,"psst_output":psst_output})
     else:
         excel_file = request.FILES["excel_file"]
-        destination = open(os.path.join(".\\resources", 'temp.xlsx'), 'wb+')
+        destination = open(os.path.join(".\\resources", 'psst_input.xlsx'), 'wb+')
         for chunk in excel_file.chunks():
             destination.write(chunk)
         destination.close()
